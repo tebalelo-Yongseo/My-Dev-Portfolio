@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.main-heading{
+    color: grey;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid grey;
+    text-align: center;
+
+}
+
+.highlight{
+    color: olive;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+h1{
+    color: green;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    border: 1px solid black;
+    color: white;
+    
+}
+
+nav a:hover {
+    color: white;
+    background-color: blue;
+}
+
+section{
+    padding: 40px;
+    margin: 20px;
+
+    background-color: #f5f5f5;
+}
+
+section h2{
+    color: darkblue;
+}
+
+p{
+    font-size: 18px;
+    margin: 10px;
+    margin: 5px;
+    
+}
+
+
