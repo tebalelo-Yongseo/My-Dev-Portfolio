@@ -5,7 +5,7 @@ console.log("Hello, builder");
 
 //welcome Message
 let button = document.querySelector("#welcomeBtn");
-let message = document.querySelector("#message");
+let bmessage = document.querySelector("#bmessage");
 
 button.addEventListener("click", function(){
 
@@ -13,9 +13,9 @@ button.addEventListener("click", function(){
 //heading.classList.add("highlight");
 //heading.classList.remove("highlight");
 //heading.classList.toggle("highlight");
-message.classList.toggle("hidden");
+bmessage.classList.toggle("hidden");
 
-if(message.classList.contains("hidden")){
+if(bmessage.classList.contains("hidden")){
    button.textContent = "View Welcome message";
 
 }else{
@@ -51,7 +51,7 @@ let contactForm = document.querySelector("#contactForm");
 let formMessage = document.querySelector("#formMessage");
 
 
-contactForm.addEventListener("submit", function(){
+contactForm.addEventListener("submit", function(event){
   
     event.preventDefault();
     formMessage.classList.remove("hidden");
