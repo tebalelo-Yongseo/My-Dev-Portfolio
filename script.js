@@ -16,7 +16,7 @@ button.addEventListener("click", function(){
 bmessage.classList.toggle("hidden");
 
 if(bmessage.classList.contains("hidden")){
-   button.textContent = "View Welcome message";
+   button.textContent = "View Welcome Message";
 
 }else{
     button.textContent = "Hide welcome message";
