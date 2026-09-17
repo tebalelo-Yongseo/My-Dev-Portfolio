@@ -63,6 +63,6 @@ contactForm.addEventListener("submit", function(event){
 
 
 //+console.log(heading);
-console.log(bmessage);
+//console.log(bmessage);
 
 
