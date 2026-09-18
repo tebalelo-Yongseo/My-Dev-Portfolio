@@ -1,7 +1,6 @@
 console.log("Hello, builder");
 
-//Main heading
-//let heading = document.querySelector(".main-heading");
+
 
 //welcome Message
 let button = document.querySelector("#welcomeBtn");
