@@ -13,10 +13,6 @@ body{
 
 }
 
-.highlight{
-    color: olive;
-}
-
 
 .hidden{
     display: none;
@@ -60,6 +56,40 @@ section{
 section h2{
     color: darkblue;
 }
+
+
+ form {
+
+     width: 50%;
+
+    }
+
+
+    label {
+
+     display: block;
+     margin-bottom: 5px;
+
+    }
+
+input,
+textarea {
+
+      width: 50%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      padding: 5px;
+
+    }
+
+
+form button {
+
+     display: block;
+     margin-top: 5px;
+
+}
+
 
 p{
     font-size: 18px;

@@ -36,6 +36,8 @@
 
       width: 100%;
       box-sizing: border-box;
+      margin-bottom: 15px;
+      padding: 10px;
 
     }
 
@@ -49,7 +51,7 @@
     label {
 
      display: block;
-     margin-top: 10px;
+     margin-bottom: 5px;
 
     }
 
