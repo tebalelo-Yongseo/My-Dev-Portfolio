@@ -1,9 +1,10 @@
 @media (max-width: 768px) {
-    body {
+    
+body {
         padding: 10px;
     }
 
-    .main-heading {
+.main-heading {
 
       font-size: 28px;
       padding: 15px;
@@ -11,44 +12,52 @@
 
 }
 
-    nav a {
+nav a {
          
      display: block;
      margin: 5px 0;
      padding: 10px;
+     word-wrap: break-word;
 
     }
 
-    section {
+nav {
+
+  margin: 10px;
+
+}    
+
+section {
 
         padding: 20px;
         margin: 10px;
+        box-sizing: border-box;
     }
 
-    p {
+p {
 
       font-size: 16px;
 
     }
 
-    input,
-    textarea {
+input,
+textarea {
 
       width: 100%;
       box-sizing: border-box;
-      margin-bottom: 15px;
-      padding: 10px;
+      
 
     }
 
-    form {
+#contactForm {
 
      width: 100%;
+     margin: 20px 0;
 
     }
 
 
-    label {
+label {
 
      display: block;
      margin-bottom: 5px;
