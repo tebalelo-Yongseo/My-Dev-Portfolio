@@ -41,6 +41,20 @@ p {
 
     }
 
+
+.project a 
+#about a{
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px 0;
+
+     
+}
+    
+
 input,
 textarea {
 
