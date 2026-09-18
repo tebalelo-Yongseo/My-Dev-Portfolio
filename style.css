@@ -1,7 +1,8 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image:url('images/images\ \(7\).jpeg')
+    background-image:url('images/pngtree-website-technology-line-dark-background-image_2344719.jpg');
+    color: #333333;
 }
 
 .main-heading{
@@ -24,7 +25,7 @@ h1{
 }
 
 nav{
-    background-color: lightgray;
+    background-color: rgba(30, 30, 30, 0.9);
     padding: 5px;
     margin: 5px;
     
@@ -35,7 +36,7 @@ nav a{
     display: inline-block;
     padding: 10px;
     margin: 10px;
-    background-color: lightblue;
+    background-color: transparent;
     border: 1px solid black;
     color: white;
     
@@ -43,18 +44,26 @@ nav a{
 
 nav a:hover {
     color: white;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 section{
     padding: 40px;
     margin: 20px;
-
-    background-color: #f5f5f5;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 section h2{
-    color: darkblue;
+    color: #222222;
+}
+
+
+.project{
+
+    padding: 20px;
+    margin-top: 20px;
+    border-right: 1px solid grey;
+    background-color: white;
 }
 
 
