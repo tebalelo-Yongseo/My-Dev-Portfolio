@@ -14,7 +14,7 @@ if(bmessage.classList.contains("hidden")){
    button.textContent = "View Welcome Message";
 
 }else{
-    button.textContent = "Hide welcome message";
+    button.textContent = "Hide Welcome Message";
 }
 
 });
