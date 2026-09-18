@@ -69,36 +69,37 @@ section h2{
 }
 
 
- form {
 
-     width: 50%;
-
-    }
-
-
-    #contactForm {
-       
-       max-width: 600px;
-       margin: 20px auto;
-
-    }
-
-
-    label {
+label {
 
      display: block;
      margin-bottom: 5px;
 
     }
 
-input,
-textarea {
+
+#contactForm {
+
+    margin: 20px auto;
+
+}
+
+#contactForm label{
+
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+#contactForm input,
+#contactForm textarea {
 
       width: 50%;
       box-sizing: border-box;
-      margin-bottom: 10px;
-      padding: 5px;
       margin-bottom: 15px;
+      margin-top: 5px;
+      padding: 10px;
       border: 1px solid #999999;
       border-radius: 5px;
       font-size: 16px;
