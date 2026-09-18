@@ -9,10 +9,6 @@ let bmessage = document.querySelector("#bmessage");
 
 button.addEventListener("click", function(){
 
-//heading.textContent = "Welcome to My Developer Portfolio";
-//heading.classList.add("highlight");
-//heading.classList.remove("highlight");
-//heading.classList.toggle("highlight");
 bmessage.classList.toggle("hidden");
 
 if(bmessage.classList.contains("hidden")){
@@ -62,7 +58,5 @@ contactForm.addEventListener("submit", function(event){
 
 
 
-//+console.log(heading);
-//console.log(bmessage);
 
 

@@ -39,6 +39,20 @@
 
     }
 
+    form {
+
+     width: 100%;
+
+    }
+
+
+    label {
+
+     display: block;
+     margin-top: 10px;
+
+    }
+
  img {
 
     max-width: 100%;
