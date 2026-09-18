@@ -1,15 +1,15 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-image:url('images/pngtree-website-technology-line-dark-background-image_2344719.jpg');
+    background-image:url('images/images\ \(4\).jpeg');
     color: #333333;
 }
 
 .main-heading{
-    color: grey;
+    color: #121212;
     padding: 20px;
     margin: 30px;
-    border: 2px solid grey;
+    border: 2px solid rgba(255, 255, 255, 0.7);
     text-align: center;
 
 }
@@ -20,14 +20,11 @@ body{
 }
 
 
-h1{
-    color: green;
-}
-
 nav{
-    background-color: rgba(30, 30, 30, 0.9);
-    padding: 5px;
-    margin: 5px;
+    background-color: rgba(160, 239, 232, 0.847);
+    padding: 10px;
+    margin: 20px;
+    text-align: left;
     
 }
 
@@ -37,8 +34,8 @@ nav a{
     padding: 10px;
     margin: 10px;
     background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    color: white;
+    border: none;
+    color: black;
     border-radius: 6px;
     
 }
@@ -51,11 +48,14 @@ nav a:hover {
 section{
     padding: 40px;
     margin: 20px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(160, 239, 232, 0.847);
 }
 
-section h2{
+section h2 {
     color: #222222;
+    margin-top: 0;
+    margin-bottom: 20px;
+
 }
 
 
@@ -63,7 +63,7 @@ section h2{
 
     padding: 20px;
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(160, 239, 232, 0.847);
     border: 1px solid rgba(80, 80, 80, 0.4);
     border-radius: 8px;
 }
@@ -137,7 +137,8 @@ form button {
 
 p{
     font-size: 18px;
-    margin: 5px;
+    margin: 10px 20px;
+    line-height: 1.6;
     
 }
 

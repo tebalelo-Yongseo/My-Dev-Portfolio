@@ -9,6 +9,7 @@ body {
       font-size: 28px;
       padding: 15px;
       margin: 15px;
+      overflow: break-word;
 
 }
 
