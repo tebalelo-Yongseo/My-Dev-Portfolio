@@ -37,8 +37,9 @@ nav a{
     padding: 10px;
     margin: 10px;
     background-color: transparent;
-    border: 1px solid black;
+    border: 1px solid rgba(255, 255, 255, 0.7);
     color: white;
+    border-radius: 6px;
     
 }
 
@@ -62,14 +63,23 @@ section h2{
 
     padding: 20px;
     margin-top: 20px;
-    border-right: 1px solid grey;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(80, 80, 80, 0.4);
+    border-radius: 8px;
 }
 
 
  form {
 
      width: 50%;
+
+    }
+
+
+    #contactForm {
+       
+       max-width: 600px;
+       margin: 20px auto;
 
     }
 
@@ -88,6 +98,10 @@ textarea {
       box-sizing: border-box;
       margin-bottom: 10px;
       padding: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #999999;
+      border-radius: 5px;
+      font-size: 16px;
 
     }
 
@@ -107,3 +121,20 @@ p{
 }
 
 
+button{
+
+   padding: 10px 18px;
+   border: none;
+   border-radius: 6px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+button:hover {
+
+    background-color: #555555;
+
+}
